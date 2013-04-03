@@ -6,6 +6,8 @@ It is meant to be used in conjunction with **homesick/homeshick** (https://githu
 
 Simply 
 
+    homesick clone https://github.com/cbudjan/my-dotfiles.git
+
     homesick link my-dotfiles
 
 to symlink the dotfiles to the home folder.
