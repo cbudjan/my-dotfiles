@@ -1,6 +1,6 @@
 ## my-dotfiles ##
 
-My current dotfile setup.
+My current dotfiles setup.
 
 It is meant to be used in conjunction with **homesick/homeshick** (https://github.com/technicalpickles/homesick) and should be cloned into .homesick/repos/
 
