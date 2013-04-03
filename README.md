@@ -1,4 +1,4 @@
-# my-dotfiles #
+## my-dotfiles ##
 
 My current dotfile setup.
 
