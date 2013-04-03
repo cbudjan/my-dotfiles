@@ -26,3 +26,5 @@ alias rm='rm -i'
 alias amaserv='ssh -l cb631 amaserv.gen.cam.ac.uk'
 
 alias f='open -a Finder ./'
+
+alias dots='cd ~/.homesick/repos/my-dotfiles'

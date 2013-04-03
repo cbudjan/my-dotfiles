@@ -20,14 +20,14 @@ source $HOME/.aliases.zsh
 setopt AUTO_CD
 
 # Vim support in zsh
-export EDITOR="vim"
-bindkey -v
+# export EDITOR="vim"
+# bindkey -v
 
 # vi style incremental search
-bindkey '^R' history-incremental-search-backward
-bindkey '^S' history-incremental-search-forward
-bindkey '^P' history-search-backward
-bindkey '^N' history-search-forward
+# bindkey '^R' history-incremental-search-backward
+# bindkey '^S' history-incremental-search-forward
+# bindkey '^P' history-search-backward
+# bindkey '^N' history-search-forward
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
