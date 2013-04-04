@@ -54,6 +54,12 @@ plugins=(git git-flow textmate brew gem github osx)
 
 source $ZSH/oh-my-zsh.sh
 
+# add autojump
+[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
+# enable zsh tab completion
+autoload -U compinit && compinit -u
+setopt nolistambiguous
+
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/cbudjan/.rvm/bin:/Users/cbudjan/Scripts
 
