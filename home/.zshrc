@@ -50,15 +50,17 @@ setopt AUTO_CD
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-flow textmate brew gem github osx)
+plugins=(autojump Forklift git git-flow textmate brew gem github osx pip sublime)
 
 source $ZSH/oh-my-zsh.sh
 
 # add autojump
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
-# enable zsh tab completion
+# enable zsh tab completion & ignore case
 autoload -U compinit && compinit -u
 setopt nolistambiguous
+
+export AUTOJUMP_IGNORE_CASE=1
 
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/cbudjan/.rvm/bin:/Users/cbudjan/Scripts
